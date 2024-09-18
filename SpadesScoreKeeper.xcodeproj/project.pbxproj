@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6684E8CB2BB63A50005ACA42 /* SpadesScoreKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6684E8CA2BB63A50005ACA42 /* SpadesScoreKeeperApp.swift */; };
+		6684E8CD2BB63A50005ACA42 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6684E8CC2BB63A50005ACA42 /* GameView.swift */; };
+		6684E8CF2BB63A51005ACA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6684E8CE2BB63A51005ACA42 /* Assets.xcassets */; };
+		6684E8D22BB63A51005ACA42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6684E8D12BB63A51005ACA42 /* Preview Assets.xcassets */; };
+		6684E8DB2BB7A5CD005ACA42 /* SpadesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6684E8DA2BB7A5CD005ACA42 /* SpadesViewModel.swift */; };
+		6684E8DD2BB7B512005ACA42 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6684E8DC2BB7B512005ACA42 /* Team.swift */; };
+		6684E8DF2BB7B559005ACA42 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6684E8DE2BB7B559005ACA42 /* GameViewModel.swift */; };
+		6684E8E12BB7B67D005ACA42 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6684E8E02BB7B67D005ACA42 /* TeamModel.swift */; };
+		6684E8E32BBB2A8F005ACA42 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6684E8E22BBB2A8F005ACA42 /* TitleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6684E8C72BB63A50005ACA42 /* SpadesScoreKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpadesScoreKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6684E8CA2BB63A50005ACA42 /* SpadesScoreKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpadesScoreKeeperApp.swift; sourceTree = "<group>"; };
+		6684E8CC2BB63A50005ACA42 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		6684E8CE2BB63A51005ACA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6684E8D12BB63A51005ACA42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6684E8DA2BB7A5CD005ACA42 /* SpadesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpadesViewModel.swift; sourceTree = "<group>"; };
+		6684E8DC2BB7B512005ACA42 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		6684E8DE2BB7B559005ACA42 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		6684E8E02BB7B67D005ACA42 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		6684E8E22BBB2A8F005ACA42 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6684E8C42BB63A50005ACA42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6684E8BE2BB63A50005ACA42 = {
+			isa = PBXGroup;
+			children = (
+				6684E8C92BB63A50005ACA42 /* SpadesScoreKeeper */,
+				6684E8C82BB63A50005ACA42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6684E8C82BB63A50005ACA42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6684E8C72BB63A50005ACA42 /* SpadesScoreKeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6684E8C92BB63A50005ACA42 /* SpadesScoreKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				6684E8CA2BB63A50005ACA42 /* SpadesScoreKeeperApp.swift */,
+				6684E8CC2BB63A50005ACA42 /* GameView.swift */,
+				6684E8E22BBB2A8F005ACA42 /* TitleView.swift */,
+				6684E8E02BB7B67D005ACA42 /* TeamModel.swift */,
+				6684E8DC2BB7B512005ACA42 /* Team.swift */,
+				6684E8DE2BB7B559005ACA42 /* GameViewModel.swift */,
+				6684E8DA2BB7A5CD005ACA42 /* SpadesViewModel.swift */,
+				6684E8CE2BB63A51005ACA42 /* Assets.xcassets */,
+				6684E8D02BB63A51005ACA42 /* Preview Content */,
+			);
+			path = SpadesScoreKeeper;
+			sourceTree = "<group>";
+		};
+		6684E8D02BB63A51005ACA42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6684E8D12BB63A51005ACA42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6684E8C62BB63A50005ACA42 /* SpadesScoreKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6684E8D52BB63A51005ACA42 /* Build configuration list for PBXNativeTarget "SpadesScoreKeeper" */;
+			buildPhases = (
+				6684E8C32BB63A50005ACA42 /* Sources */,
+				6684E8C42BB63A50005ACA42 /* Frameworks */,
+				6684E8C52BB63A50005ACA42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpadesScoreKeeper;
+			productName = SpadesScoreKeeper;
+			productReference = 6684E8C72BB63A50005ACA42 /* SpadesScoreKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6684E8BF2BB63A50005ACA42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					6684E8C62BB63A50005ACA42 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 6684E8C22BB63A50005ACA42 /* Build configuration list for PBXProject "SpadesScoreKeeper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6684E8BE2BB63A50005ACA42;
+			productRefGroup = 6684E8C82BB63A50005ACA42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6684E8C62BB63A50005ACA42 /* SpadesScoreKeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6684E8C52BB63A50005ACA42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6684E8D22BB63A51005ACA42 /* Preview Assets.xcassets in Resources */,
+				6684E8CF2BB63A51005ACA42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6684E8C32BB63A50005ACA42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6684E8DF2BB7B559005ACA42 /* GameViewModel.swift in Sources */,
+				6684E8DD2BB7B512005ACA42 /* Team.swift in Sources */,
+				6684E8E12BB7B67D005ACA42 /* TeamModel.swift in Sources */,
+				6684E8E32BBB2A8F005ACA42 /* TitleView.swift in Sources */,
+				6684E8DB2BB7A5CD005ACA42 /* SpadesViewModel.swift in Sources */,
+				6684E8CD2BB63A50005ACA42 /* GameView.swift in Sources */,
+				6684E8CB2BB63A50005ACA42 /* SpadesScoreKeeperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6684E8D32BB63A51005ACA42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6684E8D42BB63A51005ACA42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6684E8D62BB63A51005ACA42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpadesScoreKeeper/Preview Content\"";
+				DEVELOPMENT_TEAM = N2X5NT7N32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickey-johnson.SpadesScoreKeeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6684E8D72BB63A51005ACA42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpadesScoreKeeper/Preview Content\"";
+				DEVELOPMENT_TEAM = N2X5NT7N32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickey-johnson.SpadesScoreKeeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6684E8C22BB63A50005ACA42 /* Build configuration list for PBXProject "SpadesScoreKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6684E8D32BB63A51005ACA42 /* Debug */,
+				6684E8D42BB63A51005ACA42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6684E8D52BB63A51005ACA42 /* Build configuration list for PBXNativeTarget "SpadesScoreKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6684E8D62BB63A51005ACA42 /* Debug */,
+				6684E8D72BB63A51005ACA42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6684E8BF2BB63A50005ACA42 /* Project object */;
+}
