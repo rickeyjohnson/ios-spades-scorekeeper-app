@@ -178,3 +178,4 @@ struct TeamScoreView: View {
     GameView()
 }
 
+// bad designed, but accomplished task and eager to learn more
